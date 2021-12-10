@@ -1,0 +1,133 @@
+body {
+  text-align: center;
+  font-family: 'Tajawal', sans-serif;
+  background-color: #D6B0B1;
+  top: 0;
+  left: 0;
+  background-image: url("image.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  top: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.grid {
+  margin: auto;
+  margin-top: 1em;
+  width: 436px;
+  height: 436px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  background: #363062;
+  border: 1em solid #363062;
+  border-radius: 6px;
+  opacity: 1;
+  justify-content: center;
+}
+
+.grid div {
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 4px;
+  margin: 4px;
+  text-emphasis-style: filled;
+
+}
+
+#result-box {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  color: white;
+}
+
+#result-background {
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  background-color: #98ACF8;
+}
+
+#result-message {
+  width: 80%;
+  height: 15%;
+  font-size: 4em;
+  text-align: center;
+  position: absolute;
+  top: 22%;
+  left: 10%;
+  font-weight: bold;
+}
+
+#result-tile-container {
+  width: 100%;
+  height: 23%;
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+}
+
+#result-tile {
+  width: 23%;
+  height: 100%;
+  font-size: 3em;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.result-button {
+  width: 10%;
+  height: 10%;
+  border: none;
+  font-size: 1.3em;
+  color: white;
+  background-color: #1E253D;
+  opacity: 0;
+  position: absolute;
+  top: 62%;
+  left: 35%;
+  margin-left: 10%;
+  border-radius: 20px;
+}
+
+.result-button:active {
+  top: 62.2%;
+  background-color: black;
+}
+
+/* #new-game {
+  width: 200px;
+  height: 80px;
+  margin: 40px;
+  font-size: 2em;
+  color: white;
+  border-radius: 51px;
+  background: #D6B0B1;
+  box-shadow: inset 16px 16px 32px #a7898a,
+    inset -16px -16px 32px #ffd7d8;
+  border: none;
+}
+
+#new-game:hover {
+  border-radius: 51px;
+  background: #D6B0B1;
+  box-shadow: inset -16px -16px 32px #a7898a,
+              inset 16px 16px 32px #ffd7d8;
+} */
